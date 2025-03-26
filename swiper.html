@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper.js - 3 Slides with Placeholder Images</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 80%;
+            height: 400px;
+            margin: 20px auto;
+        }
+
+        .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Swiper Container -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://via.placeholder.com/800x400?text=Slide+1" alt="Placeholder 1"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/800x400?text=Slide+2" alt="Placeholder 2"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/800x400?text=Slide+3" alt="Placeholder 3"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/800x400?text=Slide+4" alt="Placeholder 4"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/800x400?text=Slide+5" alt="Placeholder 5"></div>
+        </div>
+
+        <!-- Pagination & Navigation -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+                slidesPerView: 3, // Show 3 slides at once
+                spaceBetween: 20, // Space between slides
+                autoplay: { delay: 3000 },
+                pagination: { el: '.swiper-pagination', clickable: true },
+                navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+            });
+        });
+    </script>
+
+</body>
+
+</html>
