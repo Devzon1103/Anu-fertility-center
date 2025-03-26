@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'cmsmasters-demo-icons';
+  src:  url('fonts/cmsmasters-demo-iconsc19b.eot?hh4iva');
+  src:  url('fonts/cmsmasters-demo-iconsc19b.eot?hh4iva#iefix') format('embedded-opentype'),
+    url('fonts/cmsmasters-demo-iconsc19b.ttf?hh4iva') format('truetype'),
+    url('fonts/cmsmasters-demo-iconsc19b.woff?hh4iva') format('woff'),
+    url('fonts/cmsmasters-demo-iconsc19b.svg?hh4iva#cmsmasters-demo-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="cmsms-demo-icon-"], [class*=" cmsms-demo-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cmsmasters-demo-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cmsms-demo-icon-arrow-down:before {
+  content: "\e900";
+}
+.cmsms-demo-icon-arrow-left:before {
+  content: "\e901";
+}
+.cmsms-demo-icon-arrow-right:before {
+  content: "\e902";
+}
+.cmsms-demo-icon-arrow-up:before {
+  content: "\e903";
+}
+.cmsms-demo-icon-birth-control:before {
+  content: "\e904";
+}
+.cmsms-demo-icon-calendar:before {
+  content: "\e905";
+}
+.cmsms-demo-icon-calendar-1:before {
+  content: "\e906";
+}
+.cmsms-demo-icon-cancel:before {
+  content: "\e907";
+}
+.cmsms-demo-icon-cart:before {
+  content: "\e908";
+}
+.cmsms-demo-icon-check:before {
+  content: "\e909";
+}
+.cmsms-demo-icon-doctor:before {
+  content: "\e90a";
+}
+.cmsms-demo-icon-gynecology:before {
+  content: "\e90b";
+}
+.cmsms-demo-icon-location:before {
+  content: "\e90c";
+}
+.cmsms-demo-icon-medal:before {
+  content: "\e90d";
+}
+.cmsms-demo-icon-menu:before {
+  content: "\e90e";
+}
+.cmsms-demo-icon-ovary:before {
+  content: "\e90f";
+}
+.cmsms-demo-icon-pick-list:before {
+  content: "\e910";
+}
+.cmsms-demo-icon-pill:before {
+  content: "\e911";
+}
+.cmsms-demo-icon-pregnant:before {
+  content: "\e912";
+}
+.cmsms-demo-icon-protection:before {
+  content: "\e913";
+}
+.cmsms-demo-icon-search:before {
+  content: "\e914";
+}
+.cmsms-demo-icon-Star-20:before {
+  content: "\e915";
+}
+.cmsms-demo-icon-time:before {
+  content: "\e916";
+}
+.cmsms-demo-icon-usg:before {
+  content: "\e917";
+}
+.cmsms-demo-icon-uterus:before {
+  content: "\e918";
+}
+.cmsms-demo-icon-woman:before {
+  content: "\e919";
+}
