@@ -48,8 +48,8 @@
 	border-color: var(--e-global-color-border);
 	--border-color: var(--e-global-color-border);
 	--border-radius: 20px 0px 0px 20px;
-	--padding-top: 80px;
-	--padding-bottom: 80px;
+	--padding-top: 40px;
+	--padding-bottom: 40px;
 	--padding-left: 80px;
 	--padding-right: 80px;
 }
@@ -208,7 +208,7 @@
 
 .elementor-40916 .elementor-element.elementor-element-4c1ce96 {
 	--display: flex;
-	--min-height: 830px;
+	--min-height: 530px;
 	--flex-direction: column;
 	--container-widget-width: 100%;
 	--container-widget-height: initial;
@@ -230,7 +230,8 @@
 .elementor-40916 .elementor-element.elementor-element-4c1ce96:not(.elementor-motion-effects-element-type-background):not(.cmsmasters-bg-effect),
 .elementor-40916 .elementor-element.elementor-element-4c1ce96>.elementor-motion-effects-container>.elementor-motion-effects-layer,
 .elementor-40916 .elementor-element.elementor-element-4c1ce96>.cmsmasters-bg-effects-container>.cmsmasters-bg-effects-element {
-	background-image: url("../../2024/11/51-contacts-1.html");
+	background-image: url("../../2024/12/doctor-desk.png");
+	
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1138,8 +1139,8 @@
 		--border-bottom-width: 0px;
 		--border-left-width: 1px;
 		--border-radius: 20px 20px 0px 0px;
-		--padding-top: 80px;
-		--padding-bottom: 80px;
+		--padding-top: 40px;
+		--padding-bottom: 40px;
 		--padding-left: 30px;
 		--padding-right: 30px;
 	}
