@@ -1359,3 +1359,13 @@ body.rtl .elementor-152 .elementor-element.elementor-element-1ac02e9a {
 		word-spacing: var(--e-global-typography-button-word-spacing);
 	}
 }
+
+@media screen and (max-width: 760px) {
+	.elementor-152 .elementor-element.elementor-element-70ed1f96 .elementor-widget-cmsmasters-site-logo__image-container img {
+		width: 100%;
+		max-width: 100%;
+	}
+	.elementor-152 .elementor-element.elementor-element-21da939e {
+		--padding-left: 0px;
+	}
+}
